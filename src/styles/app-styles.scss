@@ -1,0 +1,32 @@
+body{
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   min-height: 2950px;
+   @media(max-width: 768px){
+      min-height: 2710px;
+   }
+   @media(max-width: 520px){
+      min-height: 2800px;
+   }
+   .mainflow{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 1920px;
+      width: 100%;
+      min-height: 2950px;
+      background-color: #FFF;
+      @media(max-width: 768px){
+         min-height: 2710px;
+      }
+      @media(max-width: 520px){
+         min-height: 2800px;
+      }
+   }
+}
